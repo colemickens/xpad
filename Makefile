@@ -1,4 +1,4 @@
-obj-m = xpad.o
+obj-m = xpad-tip.o
 
 KVERSION = $(shell uname -r)
 KERNEL_SOURCE_DIR := /lib/modules/$(KVERSION)/build 
